@@ -1,30 +1,36 @@
 {
-  "name": "guess-melody",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Учебный проект «Угадай мелодию» от HTML Academy",
-  "scripts": {
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --open",
-    "eslint": "eslint src/**/*.js",
-    "test": "npm run eslint"
-  },
-  "devDependencies": {
-    "@babel/core": "7.14.6",
-    "@babel/preset-react": "7.14.5",
-    "babel-loader": "8.2.2",
-    "eslint": "5.13.0",
-    "eslint-config-htmlacademy": "0.5.2",
-    "eslint-plugin-react": "7.24.0",
-    "webpack": "4.29.5",
-    "webpack-cli": "3.2.3",
-    "webpack-dev-server": "3.1.14"
-  },
-  "engines": {
-    "node": "10"
-  },
-  "dependencies": {
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  }
+    "name": "guess-melody",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Учебный проект «Угадай мелодию» от HTML Academy",
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack-dev-server --open",
+        "eslint": "eslint src/**/*.js",
+        "test": "npm run eslint && npm run test.jest",
+        "test.jest": "jest"
+    },
+    "devDependencies": {
+        "@babel/core": "7.14.6",
+        "@babel/preset-env": "7.14.7",
+        "@babel/preset-react": "7.14.5",
+        "babel-jest": "27.0.6",
+        "babel-loader": "8.2.2",
+        "eslint": "5.13.0",
+        "eslint-config-htmlacademy": "0.5.2",
+        "eslint-plugin-react": "7.24.0",
+        "jest": "27.0.6",
+        "react-test-renderer": "17.0.2",
+        "webpack": "4.29.5",
+        "webpack-cli": "3.2.3",
+        "webpack-dev-server": "3.1.14"
+    },
+    "engines": {
+        "node": "10"
+    },
+    "dependencies": {
+        "prop-types": "15.7.2",
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+    }
 }

@@ -11,6 +11,7 @@ module.exports = {
     contentBase: path.join(__dirname, `public`),
     open: true,
     inline: true,
+    host: `192.168.0.5`,
     port: 1337,
   },
   module: {
