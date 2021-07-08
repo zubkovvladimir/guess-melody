@@ -6,8 +6,8 @@ import App from './components/app/app.jsx';
 const errorCount = 3;
 
 ReactDOM.render(
-  <App
-    errorCount={errorCount}
-  />,
-  document.querySelector(`#root`)
+    <App
+      errorCount={errorCount}
+    />,
+    document.querySelector(`#root`)
 );

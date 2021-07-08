@@ -4,11 +4,14 @@ import WelcomeScreen from './welcome-screen.jsx';
 
 const errorCount = 3;
 
-it('Should render WelcomeScreen', () => {
+const onWelcomeButtonClick = () => {};
+
+it(`Should render WelcomeScreen`, () => {
   const tree = renderer.create(
-    <WelcomeScreen
-      errorCount={errorCount}
-    />
+      <WelcomeScreen
+        errorCount={errorCount}
+        onWelcomeButtonClick={onWelcomeButtonClick}
+      />
   )
     .toJSON();
 

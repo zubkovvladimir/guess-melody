@@ -16,6 +16,7 @@ exports[`Should render App 1`] = `
   </div>
   <button
     className="welcome__button"
+    onClick={[Function]}
   >
     <span
       className="visually-hidden"
@@ -37,7 +38,7 @@ exports[`Should render App 1`] = `
     className="welcome__rules-list"
   >
     <li>
-      Нужно ответить на все вопросы.
+      Нужно ответить на все вопросы.
     </li>
     <li>
       Можно допустить 
